@@ -10,9 +10,9 @@ double half__interval__method(double a, double b) {
 	double b__value = 0;
 	a__value = fun(a);
 	b__value = fun(b);
-	return (a__value < 0) && (b__value > 0) ? __SPA__try(a, b)
+	return ((a__value < 0) && (b__value > 0) ? __SPA__try(a, b)
 		:	(a__value > 0) && (b__value < 0) ? __SPA__try(b, a)
-		:	b + 1;
+		:	b + 1);
 }
 }
 
