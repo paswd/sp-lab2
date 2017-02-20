@@ -71,6 +71,7 @@ double fun(double z) {
 
 int main(void) {
 	display(" SPA variant 34");
+	newline();
 	display(root(0, 1));
 	newline();
 
